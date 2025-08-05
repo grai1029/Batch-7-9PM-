@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-04T18:22:14 IST" name="Suite" finished-at="2025-08-04T18:24:52 IST" duration-ms="158421">
+    <groups>
+      <group name="regression">
+        <method signature="CampaignTest.toCreateCampaignWithExpectedDateTest()[pri:0, instance:Campaign.CampaignTest@1ce24091]" name="toCreateCampaignWithExpectedDateTest" class="Campaign.CampaignTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ProductTest.toCreateProductWithMandatoryFieldsTest()[pri:0, instance:Product.ProductTest@702657cc]" name="toCreateProductWithMandatoryFieldsTest" class="Product.ProductTest"/>
+        <method signature="CampaignTest.toCreateCampaignWithStatusTest()[pri:0, instance:Campaign.CampaignTest@1ce24091]" name="toCreateCampaignWithStatusTest" class="Campaign.CampaignTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-08-04T18:22:14 IST" name="Test1" finished-at="2025-08-04T18:23:41 IST" duration-ms="87437">
+      <class name="Product.ProductTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Product.ProductTest@702657cc]" started-at="2025-08-04T18:22:14 IST" name="beforeClass" finished-at="2025-08-04T18:22:17 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Product.ProductTest@702657cc]" started-at="2025-08-04T18:22:17 IST" name="beforeMethod" finished-at="2025-08-04T18:23:07 IST" duration-ms="50204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateProductWithMandatoryFieldsTest()[pri:0, instance:Product.ProductTest@702657cc]" started-at="2025-08-04T18:23:07 IST" name="toCreateProductWithMandatoryFieldsTest" finished-at="2025-08-04T18:23:12 IST" duration-ms="4885" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with index: 1
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:407)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:262)
+at Product.ProductTest.toCreateProductWithMandatoryFieldsTest(ProductTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateProductWithMandatoryFieldsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Product.ProductTest@702657cc]" started-at="2025-08-04T18:23:12 IST" name="afterMethod" finished-at="2025-08-04T18:23:41 IST" duration-ms="28550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Product.ProductTest@702657cc]" started-at="2025-08-04T18:23:41 IST" name="afterClass" finished-at="2025-08-04T18:23:41 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Product.ProductTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-08-04T18:22:14 IST" name="Test2" finished-at="2025-08-04T18:24:52 IST" duration-ms="158421">
+      <class name="Campaign.CampaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:22:14 IST" name="beforeSuite" finished-at="2025-08-04T18:22:14 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:22:14 IST" name="beforeClass" finished-at="2025-08-04T18:22:17 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:22:17 IST" name="beforeMethod" finished-at="2025-08-04T18:23:10 IST" duration-ms="52691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateCampaignWithExpectedDateTest()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:23:10 IST" name="toCreateCampaignWithExpectedDateTest" finished-at="2025-08-04T18:23:19 IST" duration-ms="9519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithExpectedDateTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:23:19 IST" name="afterMethod" finished-at="2025-08-04T18:23:32 IST" duration-ms="12874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:23:32 IST" name="beforeMethod" finished-at="2025-08-04T18:23:54 IST" duration-ms="21405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateCampaignWithMandatoryFieldsTest()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:23:54 IST" name="toCreateCampaignWithMandatoryFieldsTest" finished-at="2025-08-04T18:23:58 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithMandatoryFieldsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:23:58 IST" name="afterMethod" finished-at="2025-08-04T18:24:15 IST" duration-ms="17031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:24:15 IST" name="beforeMethod" finished-at="2025-08-04T18:24:36 IST" duration-ms="20929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateCampaignWithStatusTest()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:24:36 IST" name="toCreateCampaignWithStatusTest" finished-at="2025-08-04T18:24:39 IST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithStatusTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:24:39 IST" name="afterMethod" finished-at="2025-08-04T18:24:52 IST" duration-ms="12453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:24:52 IST" name="afterClass" finished-at="2025-08-04T18:24:52 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Campaign.CampaignTest@1ce24091]" started-at="2025-08-04T18:24:52 IST" name="afterSuite" finished-at="2025-08-04T18:24:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Campaign.CampaignTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
